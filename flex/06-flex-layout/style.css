@@ -16,6 +16,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  /* answer */
+  padding: 10px;
 }
 
 input {
@@ -24,4 +27,28 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+/* answers */
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: #eeeeee;
+  display: flex;
+  
+  justify-content: space-between;
+  margin: 5px;
 }
